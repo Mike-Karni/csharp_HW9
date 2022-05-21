@@ -1,23 +1,8 @@
 ﻿// Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
 //m = 2, n = 3 -> A(m,n) = 29
 
-
-
-
-
-
-    int Input(string text)
-{
-    Console.Write(text);
-    return Convert.ToInt32(Console.ReadLine());
-}
-
-
 int m = Input("Введите число m ");
 int n = Input("Введите число n ");
-
-
-
 if(m >= 0 && n >= 0)
 {
     Console.WriteLine($"Вычисление равно : {AkkermanCalculation(n, m)}");
